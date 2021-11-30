@@ -7,9 +7,10 @@ It includes a copy of chromedriver which includes certain bug fixes, which have 
 ## Tags available
 The following tags are currently available:
 
-| Tag                        | chromedriver version | Selenium version              | Bugs addressed | Architectures |
-| -------------------------- | -------------------- | ----------------------------- | -------------- | ------------- |
-| 3.141.59-20210929-moodlehq | 94.0.4604.0          | 3.141.59, revision e82be7d358 | zerosize       | amd64         |
+| Tag                        | chromedriver version | Selenium version              | Bugs addressed       | Architectures |
+| -------------------------- | -------------------- | ----------------------------- | --------------       | ------------- |
+| 3.141.59-20210929-moodlehq | 94.0.4604.0          | 3.141.59, revision e82be7d358 | zerosize             | amd64         |
+| 96.0-moodlehq              | 96.0.4664.45         | 4.1.0 revision 87802e897b     | zerosize, decoration | amd64         |
 
 ## Bugs addressed
 
@@ -18,3 +19,11 @@ This issue was discovered by MoodleHQ, reproduced, reported, and fixed using the
 https://chromium-review.googlesource.com/c/chromium/src/+/3088886
 
 The original bug report is available at https://bugs.chromium.org/p/chromedriver/issues/detail?id=3878
+
+### Window decoration is not considered when scrolling into view
+This issue was discovered, reproduced, and reported by Moodle HQ.
+https://chromium-review.googlesource.com/c/chromium/src/+/3281973
+
+It was fixed upstream in Chromedriver version 98.
+
+The original bug report is available at https://bugs.chromium.org/p/chromedriver/issues/detail?id=3933
