@@ -1,6 +1,6 @@
 # selenium-standalone-chrome
 
-This repository contains build files for a custom versio of the official selenium/standalone-chrome docker image.
+This repository contains build files for a custom version of the official selenium/standalone-chrome docker image.
 
 It includes a copy of chromedriver which includes certain bug fixes, which have already been merged into later versions of the Chromoium project.
 
